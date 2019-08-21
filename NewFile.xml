@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DiscoveryProjectSuit">
+	
+	<test name="AutomateDiscovery" allow-return-values="true" parallel = "false">
+		<classes>
+			<!-- packagename.Testcase class name -->
+			<class name="discoveryTest.DiscoveryHomePageTest" />
+			<class name="discoveryTest.DiscoveryMyVideoPageTest" />
+		</classes>
+	</test>
+
+</suite>

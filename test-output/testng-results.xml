@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-21T05:04:14Z" name="DiscoveryProjectSuit" finished-at="2019-08-21T05:05:31Z" duration-ms="76291">
+    <groups>
+    </groups>
+    <test started-at="2019-08-21T05:04:14Z" name="AutomateDiscovery" finished-at="2019-08-21T05:05:31Z" duration-ms="76291">
+      <class name="discoveryTest.DiscoveryMyVideoPageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup()[pri:0, instance:discoveryTest.DiscoveryMyVideoPageTest@3571b748]" started-at="2019-08-21T05:04:32Z" name="initializeTestBaseSetup" finished-at="2019-08-21T05:04:41Z" duration-ms="8972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:discoveryTest.DiscoveryMyVideoPageTest@3571b748]" started-at="2019-08-21T05:04:41Z" name="setUp" finished-at="2019-08-21T05:04:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyVideosFromMyVideoPage()[pri:0, instance:discoveryTest.DiscoveryMyVideoPageTest@3571b748]" started-at="2019-08-21T05:04:41Z" name="verifyVideosFromMyVideoPage" finished-at="2019-08-21T05:05:30Z" duration-ms="49567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVideosFromMyVideoPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:discoveryTest.DiscoveryMyVideoPageTest@3571b748]" started-at="2019-08-21T05:05:30Z" name="tearDown" finished-at="2019-08-21T05:05:31Z" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- discoveryTest.DiscoveryMyVideoPageTest -->
+      <class name="discoveryTest.DiscoveryHomePageTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup()[pri:0, instance:discoveryTest.DiscoveryHomePageTest@fd07cbb]" started-at="2019-08-21T05:04:14Z" name="initializeTestBaseSetup" finished-at="2019-08-21T05:04:25Z" duration-ms="10954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:discoveryTest.DiscoveryHomePageTest@fd07cbb]" started-at="2019-08-21T05:04:25Z" name="setUp" finished-at="2019-08-21T05:04:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDiscoveryHomePage()[pri:0, instance:discoveryTest.DiscoveryHomePageTest@fd07cbb]" started-at="2019-08-21T05:04:25Z" name="verifyDiscoveryHomePage" finished-at="2019-08-21T05:04:31Z" duration-ms="6259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDiscoveryHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:discoveryTest.DiscoveryHomePageTest@fd07cbb]" started-at="2019-08-21T05:04:31Z" name="tearDown" finished-at="2019-08-21T05:04:32Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- discoveryTest.DiscoveryHomePageTest -->
+    </test> <!-- AutomateDiscovery -->
+  </suite> <!-- DiscoveryProjectSuit -->
+</testng-results>
